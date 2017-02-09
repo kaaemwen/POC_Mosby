@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mvp.dashboard.DashboardActivity">
+
+    <ImageView
+        android:id="@+id/imgCardDetail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/titleCardDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_below="@id/imgCardDetail"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/descCardDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="14dp"
+        android:layout_below="@id/titleCardDetail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+</LinearLayout>
